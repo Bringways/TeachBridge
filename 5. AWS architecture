@@ -1,0 +1,31 @@
+                     INTERNET
+                         │
+                         ↓
+                  Route 53 / DNS
+                         │
+                         ↓
+                  CloudFront
+                         │
+                         ↓
+                    Next.js
+                         │
+                         ↓
+                 Application Load
+                    Balancer
+                         │
+                         ↓
+                  ECS / Fargate
+                         │
+                  ┌──────┴──────┐
+                  │             │
+              Backend       Background
+                API           Workers
+                  │
+       ┌──────────┼───────────┐
+       │          │           │
+       ↓          ↓           ↓
+   PostgreSQL    S3       Redis/Cache
+     RDS       Storage
+       │
+       ↓
+   Backups
