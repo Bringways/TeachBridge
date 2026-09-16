@@ -1,0 +1,7 @@
+Node.js + Express/NestJS
+
+Frontend
+    ↓
+REST API
+    ↓
+Node.js Backend
