@@ -1,0 +1,11 @@
+Admin
+│
+├── Dashboard
+├── Teachers
+├── Students
+├── Subjects
+├── Trial Classes
+├── Payments
+├── Reviews
+├── Complaints
+└── Reports
